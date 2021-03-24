@@ -12,6 +12,10 @@ target 'nftMarketplace' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'nftMarketplaceTests' do
     inherit! :complete
     # Pods for testing
